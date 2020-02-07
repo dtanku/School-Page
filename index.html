@@ -13,9 +13,9 @@
 					<li><a href="about.html">About</a></li>
 					<li><a href="contact.html">Contact</a></li>
 					<li><a href="my web page.html">Faqe Danoçe</a></li>
-					<li><button onclick= "playAudio('himniv2'); alert('You thought it would be the anthem, but it\'s me, DIO!')" type="button">Lshoje Hymnin</button></li>
-					<li><button type="button" onclick="pauseAudio('himniv2')">Nale Hymnin</button></li>
-					<li><button type="button" onclick="playAudio('riff')"></button></li>
+					<li><button onclick= "playjjba(); alert('You thought it would be the anthem, but it\'s me, DIO!')" type="button">Lshoje Hymnin</button></li>
+					<li><button type="button" onclick="pausejjba()">Nale Hymnin</button></li>
+					<li><button type="button" onclick="playriff('riff')"></button></li>
 				</ul>
 		</nav>
 		</div>
@@ -67,23 +67,23 @@
 		<source src="audio/bateri.mp3" type="audio/mpeg">
 	</audio>
 <script>
-var x = document.getElementById("himniv2"); 
+var jjba = document.getElementById("himniv2"); 
 
-function playAudio() { 
-  x.play(); 
+function playjjba() { 
+  jjba.play('jjba'); 
+} 
+
+function pausejjba() { 
+  jjba.pause('jjba'); 
+} 
+var riff = document.getElementById("riff"); 
+
+function playriff() { 
+  riff.play(); 
 } 
 
 function pauseAudio() { 
-  x.pause(); 
-} 
-var y = document.getElementById("riff"); 
-
-function playAudio() { 
-  y.play(); 
-} 
-
-function pauseAudio() { 
-  y.pause(); 
+  riff.pause(); 
 } 
 </script>
 </body>
