@@ -1,13 +1,30 @@
 var sounds = {
-"himniv2" : {
-  url : "audio/himniv2.ogg"
-	},
-"riff" : {
-  url : "audio/bateri.mp3"
-	}
+  "dead" : {
+    url : "audio/uragani.mp3"
+  },
+  "smash" : {
+    url : "sounds/smash.mp3"
+  },
+  "ping" : {
+    url : "sounds/ping.mp3"
+  },
+  "bump" : {
+    url : "sounds/bump.mp3"
+  },
+  "jump" : {
+    url : "sounds/jump.wav"
+  },
+  "coin" : {
+    url : "sounds/coin.mp3"
+  }
 };
 
+
 var soundContext = new AudioContext();
+
+for(var key in sounds) {
+  loadSound(key);
+}
 
 function loadSound(name){
   var sound = sounds[name];
