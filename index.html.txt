@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lek Plepi</title>
+	<style type="text/css">
+		p{
+			font-family: "Showcard Gothic";
+			font-size: 16px;
+			color: #FF9933;
+			animation-name: example;
+ 			animation-duration: 10s;
+		}
+		/* Standard syntax */
+		@keyframes example {
+  		0% {background-color: red;}
+  		25% {background-color: yellow;}
+  		50% {background-color: blue}
+  		75% {background-color: green}
+  		100% {background-color: yellow}
+}
+		.danoçe{
+			font-size: 69
+			font-family: "Lucida Console";
+		}
+		body{
+			background-color: gray
+			padding: 40px;
+		}
+	</style>
+</head>
+<body>
+	<h3>Përshëndetje!</h3>
+	<p>Unë quhem Lek Plepi</p> <!-- Plotëso pjesën me gjëra rreth vetes -->
+	<p style="font-family: Lucida Console">Paragrafi i dytë</p>
+	<p>Paragrafi i tretë</p>
+	<div>
+		<audio autoplay preload="auto">
+		<source src="stereo love.mp3" type="audio/mpeg">
+		</audio>
+	</div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lek Plepi</title>
+	<link rel="stylesheet" type="text/css" href="mypage.css">
+	<script src="scripts.js" type="text/javascript"></script>
+</head>
+<body>
+	<header>
+		<div class="section">
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="my web page.html">Faqe Danoçe</a></li>
+					<li><a href="#" onclick="playSound('himniv2'); alert('You thought it would be the anthem, but it\'s me, DIO!')">Lshoje Hymnin</a>
+					<li><a onclick="pauseSound('himniv2')">Nale Hymnin</a>
+					<li><a href = "#" type="button" onclick="loadsound ('riff'); playSound('riff')">Drum Riff</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="section"></div>
+	<footer>
+		<div class="section">
+			<img src="img/lek plepi.jpg" class="fotokryesore"></img>
+		</div>
+	</footer>
+	<audio controls preload="auto">
+		<source src="audio/stereolove.ogg" type="audio/ogg"/>
+	</audio>
+	<h3>Përshëndetje!</h3>
+	<p>Unë quhem Lek Plepi</p> <!-- Plotëso pjesën me gjëra rreth vetes -->
+	<p style="font-family: Lucida Console">Paragrafi i dytë</p>
+	<p>Paragrafi i tretë</p>
+	<div class="section gri">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</div>
+	<audio id="himniv2" preload="auto">
+		<source src="audio/himniv2.ogg" type="audio/ogg">
+	</audio>
+	<audio id="riff" preload="auto">
+		<source src="audio/bateri.mp3" type="audio/mpeg">
+	</audio>
+</body>
+</html>
