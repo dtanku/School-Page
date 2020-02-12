@@ -3,6 +3,7 @@
 <head>
 	<title>Lek Plepi</title>
 	<link rel="stylesheet" type="text/css" href="mypage.css">
+	<script src="scripts.js"></script>
 </head>
 <body>
 	<header>
@@ -15,34 +16,29 @@
 					<li><a href="my web page.html">Faqe Danoçe</a></li>
 					<li><button onclick= "playjjba(); alert('You thought it would be the anthem, but it\'s me, DIO!')" type="button">Lshoje Hymnin</button></li>
 					<li><button type="button" onclick="pausejjba()">Nale Hymnin</button></li>
-					<li><button type="button" onclick="playriff('riff')"></button></li>
+					<li><button type="button" onclick="playriff('riff')">Ritëm për Bateri</button></li>
 				</ul>
 		</nav>
 		</div>
 	</header>
 	<div class="section"></div>
 	<footer>
-		<div class="section">
+		<div>
 			<img src="img/lek plepi.jpg" class="fotokryesore"></img>
 		</div>
 	<div class="section">
-		<table border="1" cellpadding="20" cellspacing="0">
-			<tr>
-				<td>Lek</td>
-				<td>Plepi</td>
-				<td>Uragani</td>
-			</tr>
-			<tr>
-				<td>Shpat</td>
-				<td>Kasapi</td>
-				<td>Valle Kosovare</td>
-			</tr>
-			<tr>
-				<td>Sinan</td>
-				<td>Hoxha</td>
-				<td>Shoqnia</td>
-			</tr>
-		</table>
+		<div class="block33" style="background-color: coral">
+			<h3>MEHCEDEZ</h3>
+			<p>ES KUPE</p>
+		</div>
+		<div class="block33" style="background-color: coral">
+			<h3>GJASHQIN PE ES</h3>
+			<p>A EM GE</p>
+		</div>
+		<div class="block33" style="background-color: coral">
+			<h3>TI E DIN KUSH JAM</h3>
+			<p>PO UN SPE DI KUSH JE</p>
+		</div>
 	</div>
 	</footer>
 	<audio controls preload="auto">
@@ -66,25 +62,5 @@
 	<audio id="riff" preload="auto">
 		<source src="audio/bateri.mp3" type="audio/mpeg">
 	</audio>
-<script>
-var jjba = document.getElementById("himniv2"); 
-
-function playjjba() { 
-  jjba.play('jjba'); 
-} 
-
-function pausejjba() { 
-  jjba.pause('jjba'); 
-} 
-var riff = document.getElementById("riff"); 
-
-function playriff() { 
-  riff.play(); 
-} 
-
-function pauseAudio() { 
-  riff.pause(); 
-} 
-</script>
 </body>
 </html>
