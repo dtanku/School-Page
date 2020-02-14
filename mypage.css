@@ -29,6 +29,15 @@ body{
 	color: #444444;
 	padding: 20px 5%;
 }
+.section-nopad{
+	width: 90%;
+	min-height:100px;
+	font-size: 69;
+	font-family: "Lucida Console";
+	background-color: #ffffff;
+	color: #444444;
+	padding: 0px 5%;
+}
 .gri{
 	background-color: #F4C430;
 }
