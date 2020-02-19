@@ -14,8 +14,9 @@ function playriff() {
   var riff = document.getElementById("riff"); 
   riff.play(); 
 }
-function pranimi() {
-	var pranimi = document.getElementById("pranimi");
-	if (pranimi.checked == false){
-	alert ("Ça bo mo burr?")
+function consent(){
+	var consent = document.getElementById("consentbox");
+	if (consent.checked == false){
+	alert("Ça bo mo burr?");
+	} else {}
 }
