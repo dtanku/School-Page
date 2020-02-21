@@ -96,3 +96,9 @@ nav a:hover, button:hover{
 	padding: 0.5%;
 	float: left;
 }
+.block100{
+	width: 99%;
+	padding: 0.5%;
+	margin-left: auto;
+	margin-right: auto;
+}

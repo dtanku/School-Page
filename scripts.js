@@ -14,9 +14,6 @@ function playriff() {
   var riff = document.getElementById("riff"); 
   riff.play(); 
 }
-function consent(){
-	var consent = document.getElementById("consentbox");
-	if (consent.checked == false){
-	alert("Ça bo mo burr?");
-	} else {}
+function leku() {
+	alert ("Lek Plepi dhe Linda Morina nxorrën këngën e re!")
 }
