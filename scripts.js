@@ -17,3 +17,15 @@ function playriff() {
 function leku() {
 	alert ("Lek Plepi dhe Linda Morina nxorrën këngën e re!")
 }
+function lekalert() {
+	var date = new Date;
+	var s = date.getSeconds();
+	var m = date.getMinutes();
+	var h = date.getHours();
+	if (h === 18 && m === 29 && s === 50){
+		alert("Është ora 18 e 30 pa 10 sekonda!");
+	}
+	else{
+		alert('lll');
+	}
+}
