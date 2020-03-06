@@ -22,10 +22,8 @@ function lekalert() {
 	var s = date.getSeconds();
 	var m = date.getMinutes();
 	var h = date.getHours();
-	if (h === 18 && m === 29 && s === 50){
+	if (h === 18 && m === 30 && s === 50){
 		alert("Është ora 18 e 30 pa 10 sekonda!");
 	}
-	else{
-		alert('lll');
-	}
+	else{}
 }
